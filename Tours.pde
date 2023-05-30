@@ -36,7 +36,7 @@ class Tours {
       tour[destination][hauteur[destination]] = tour[source][hauteur[source]];
       hauteur[source] -= 1;
     }
-    delay(500);
+    delay(50);
   }
 
   synchronized void dessiner() {

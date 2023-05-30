@@ -6,7 +6,7 @@ void setup() {
   size(800, 400);
   back = loadImage("bg.jpg");
   back.resize(width, height);
-  tours = new Tours(4);
+  tours = new Tours(10);
 }
 
 void draw() {
